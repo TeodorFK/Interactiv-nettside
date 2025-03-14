@@ -17,3 +17,22 @@ document.addEventListener("click", function (event) {
     closeMenu();
   }
 });
+document.addEventListener("DOMContentLoaded", function () {
+  function toggleMenu() {
+    let menu = document.getElementById("navMenu");
+    const overlay = document.getElementById("overlay");
+    menu.classList.toggle("open");
+    overlay.classList.toggle("show");
+  }
+  document.querySelector(".search-button").addEventListener("click", function () {
+    window.location.href = "searchPlane.html"
+  });
+
+  document.querySelector(".card").addEventListener("click", function () {
+    window.location.href = "searchPlane.html";
+  });
+
+  document.querySelector(".claim-button").addEventListener("click", function () {
+    window.location.href = "searchPlane.html";
+  });
+});

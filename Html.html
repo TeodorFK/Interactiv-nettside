@@ -11,18 +11,20 @@
     />
   </head>
   <header class="header">
+    <!-- Burgermenu og navbar-->
     <div class="burger-menu" onclick="toggleMenu()">&#9776;</div>
     <img class="logo" src="Bilder/SOS1.png" alt="SAS Logo" />
     <nav class="nav-menu" id="navMenu">
       <ul>
         <li><a href="#">Home</a></li>
-        <li><a href="#">Get ticket</a></li>
+        <li><a href="#" >Get ticket</a></li>
         <li><a href="#">Seach planes</a></li>
         <li><a href="#">Billing</a></li>
       </ul>
     </nav>
   </header>
   <body>
+    <!-- backgroun image-->
     <div class="overlay" id="overlay" onclick="closeMenu()"></div>
     <img class="startbilde" src="Bilder/Background.jpg" alt="SAS Airbus 330" />
 
@@ -31,12 +33,14 @@
       <p class="soon">
         These has a sale on them because it is less than 1 week for departure
       </p>
+      <!-- Bahamas-->
     </div>
     <img class="Bahamas" src="Bilder/Bahamas" alt="Bahamas" />
     <div class="Bahamastext">
       <p class="bahamasname">Bahamas</p>
       <p class="sale">50% off</p>
     </div>
+    <!-- Ticket-->
     <div class="ticket-container">
       <p class="ticket-title">Buy your ticket</p>
       <div class="ticket-options">
@@ -51,15 +55,16 @@
       <div class="ticket-dates">
         <div class="date-box">
           <p class="date-title">Date for departure</p>
-          <p>Sat. 6. May</p>
+          <input type="date" id="departureDate">
         </div>
         <div class="date-box">
           <p class="date-title">Date for journey home</p>
-          <p>Sun. 7. May</p>
+          <input type="date" id="departureDate">
         </div>
       </div>
       <button class="search-button">Search Plane</button>
     </div>
+    <!-- Cards / det under bahamas-->
     <div class="cards">
       <div class="card">
         <img src="Bilder/Paris.jpg" alt="Paris">
@@ -79,4 +84,5 @@
       </div>
     </div>
   </body>
+  <footer></footer>
 </html>
