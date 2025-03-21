@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sos.com</title>
+  <link rel="stylesheet" href="Styler/billing.css">
+  <script src="Script/billing.js"></script>
+</head>
+<header class="header">
+  <!--Logo-->
+  <nav><a href="Html.html"><img class="logo" src="Bilder/SOS1.png" alt="SAS Logo" /></a></nav>
+</header>
+<body>
+  <div class="container">
+    <div class="cart-summary">
+      <h2>Your Cart</h2>
+      <div class="cart-item">
+        <p>Airbus 320 neo - Paris</p>
+        <p>1400kr</p>
+      </div>
+      <div class="cart-item">
+        <p>Airbus 330 - Italy</p>
+        <p>5000kr</p>
+      </div>
+      <div class="cart-item">
+        <p>Airbus 320 neo - London</p>
+        <p>1000kr</p>
+      </div>
+      <div class="cart-item">
+        <p><strong>Total</strong></p>
+        <p><strong>7400kr</strong></p>
+      </div>
+    </div>
+  <div class="billing-container">
+    <h1>Billing Information</h1>
+    <form>
+      <label for="name">Full Name</label>
+      <input type="text" id="name" name="name" required>
+      
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" required>
+      
+      <label for="address">Address</label>
+      <input type="text" id="address" name="address" required>
+      
+      <label for="card">Card Number</label>
+      <input type="text" id="card" name="card" required>
+      
+      <label for="expiry">Expiry Date</label>
+      <input type="text" id="expiry" name="expiry" placeholder="MM/YY" required>
+      
+      <label for="cvv">CVV</label>
+      <input type="text" id="cvv" name="cvv" required>
+      
+      <button type="submit">Submit Payment</button>
+    </form>
+  </div>
+</body>
+</html>

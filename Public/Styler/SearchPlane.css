@@ -1,0 +1,100 @@
+html.body{
+  overflow-x: hidden;
+}
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  margin: 0;
+  padding: 0;
+  font-family: var(--poppin);
+}
+.header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  padding: 15px 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: white;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+  gap: 20px;
+}
+
+.logo {
+  width: 150px;
+  height: auto;
+}
+.flight {
+  background-color: var(--second-color);
+  border-radius: 10px;
+  box-shadow: 2 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 800px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 20px;
+  text-decoration: none;
+}
+.flight:hover{
+  cursor: pointer;
+}
+.flight h1 {
+  font-size: 30px;
+  color: var(--main-color);
+  font-weight: bold;
+  margin: 10px 0;
+  text-decoration: none;
+}
+.flight h3{
+  font-size: 22px;
+  color: var(--main-color);
+  font-weight: bold;
+  margin: 10px 0;
+  text-decoration: none;
+}
+.flight p{
+  font-size: 18px;
+  margin: 5px 0;
+  text-decoration: none;
+}
+.price {
+  font-size: 22px;
+  color: var(--main-color);
+  font-weight: bold;
+  margin: 10px 0;
+  text-decoration: none;
+}
+.time {
+  font-size: 22px;
+  color: var(--main-color);
+  font-weight: bold;
+  margin: 10px 0;
+  text-decoration: none;
+}
+.date {
+  font-size: 22px;
+  color: var(--main-color);
+  font-weight: bold;
+  margin: 10px 0;
+  text-decoration: none;
+}
+nav a {
+  text-decoration: none;
+  color: inherit;
+}
+:root{
+  --main-color: #2b3087;
+  --second-color: #EBEBEB;
+  --third-color: #f9e1b7;
+  --poppin: 'Poppins', sans-serif;
+}
